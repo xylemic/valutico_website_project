@@ -1,0 +1,282 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px 30px 100px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+  width: 120px;
+}
+
+header .nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+header .nav ul .active {
+  color: #065666;
+  font-weight: 650;
+}
+
+#hamburgerOpen {
+  font-size: 25px;
+  display: none;
+  cursor: pointer;
+  color: #065666;
+}
+
+#hamburgerClose {
+  font-size: 25px;
+  display: none;
+  cursor: pointer;
+  color: #065666;
+}
+
+/* >>>>>>>  NAV LISTS FOR MOBILE */
+
+.navMobileMenu {
+  display: none;
+  width: 100%;
+  height: 100svh;
+  background: #fff;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+.navMobileMenu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-left: 25px;
+  padding-top: 35px;
+}
+
+.navMobileMenu ul li a {
+  color: #333;
+  font-size: 18px;
+}
+
+.navMobileMenu ul .active {
+  color: #065666;
+}
+
+/* ---- styling the nav dropdown icons -----  */
+
+.navItemsArrow {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+/* ---- styling the nav right button -----  */
+
+.headerRightButton a {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* ======= HERO STYLING ======  */
+.heroWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.heroContents {
+  width: 700px;
+  text-align: center;
+}
+
+.heroContents h1 {
+  padding-bottom: 20px;
+  font-size: 45px;
+  line-height: 1.5;
+}
+
+.heroContents p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.heroBtn {
+  display: flex;
+  gap: 20px;
+}
+
+.heroImage img {
+  width: 800px;
+}
+
+/* ====== MAIN =======  */
+
+/* ----- Trustedby Section ------ */
+
+.firmsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.firmsContents {
+  width: 790px;
+  text-align: center;
+}
+
+.firmsContents h1 {
+  padding-bottom: 5px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.firmsContents p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.firmImages {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.firmImages img {
+  width: 200px;
+}
+
+/* ------ whySection ----- */
+
+.whySection {
+  padding-block: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #111111;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.whyContents {
+  width: 600px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.whyContents h1 {
+  padding-bottom: 10px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.whyContents p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.whyTimeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+.whyTimeline_item {
+  width: 300px;
+}
+
+.whyTimeline_item h1 {
+  padding-bottom: 10px;
+}
+
+/* ------ accurate_valuation section----- */
+.accuracySection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.accuracyContents {
+  width: 790px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.accuracyContents h1 {
+  padding-bottom: 10px;
+}
+
+.accuracyWrapper {
+  display: flex;
+  gap: 65px;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.accuracyTimeline,
+.accuracyImage {
+  max-width: 600px;
+}
+
+.accuracyTimeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.accuracyTimeline > div {
+  width: 320px;
+}
+
+.accuracyTimeline > div > h3 {
+  padding-bottom: 7px;
+  font-weight: 650;
+}
+
+.accuracyTimeline > div > p {
+  font-weight: 550;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.accuracyImage img {
+  width: 350px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+/* ========= FOOTER HERE ===========  */
+
+.footer {
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  padding: 15px 45px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

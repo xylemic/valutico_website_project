@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: manrope, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #373737;
+  background-color: #fff;
+  -webkit-background-color: white;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #373737;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+section {
+  padding-bottom: 50px;
+}
+
+#button {
+  background-color: #6fc247;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 15px;
+}
+
+#button:hover {
+  background: #fff;
+  color: #6fc247;
+  border: 1px solid #6fc247;
+  cursor: pointer;
+}
+
+#buttonOutline {
+  color: #6fc247;
+  padding: 12px 35px;
+  border-radius: 15px;
+  border: 1.5px solid #6fc247;
+}
+
+#buttonOutline:hover {
+  background: #fff;
+  color: #6fc247;
+  border: 1px solid #6fc247;
+  cursor: pointer;
+}
+
+.sidebar-button button {
+  margin-top: 20px;
+  padding: 12px 22px;
+  font-size: 1.2rem;
+  border-radius: 16px;
+  border: none;
+  background: #6fc247;
+  color: #fff;
+  border-radius: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar-button button i {
+  margin-left: 10px;
+  font-size: 1.1rem;
+}
+
+.sidebar-button button:hover {
+  background: #fff;
+  color: #6fc247;
+  border: 1px solid #6fc247;
+  cursor: pointer;
+}
